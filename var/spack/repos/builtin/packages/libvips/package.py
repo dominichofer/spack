@@ -5,7 +5,7 @@
 from spack.package import *
 
 
-class Libvips(AutotoolsPackage):
+class Libvips(AutotoolsPackage, MesonPackage):
     """libvips is a demand-driven, horizontally threaded image processing
     library. Compared to similar libraries, libvips runs quickly and uses
     little memory."""
